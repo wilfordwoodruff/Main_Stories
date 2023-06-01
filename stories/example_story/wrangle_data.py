@@ -1,7 +1,7 @@
 import pandas as pd
-from download_data import load_data_into_dataframe  # Assuming the previous script is named download_data.py
+from read_data import load_data_into_dataframe  # Assuming the previous script is named download_data.py
 
-def wrangle_data(df):
+def wrangling_data(df):
     # Perform data wrangling operations here
     # For example, let's drop any rows with missing values and rename a column
     df = df.dropna()

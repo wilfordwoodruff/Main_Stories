@@ -16,7 +16,7 @@ def load_data_into_dataframe(file):
     return df
 
 if __name__ == "__main__":
-    user = "your_username"  # Replace with your GitHub username
+    user = "tylerenglish"  # Replace with your GitHub username
     repo = "Main-Data"  # Replace with your repository name
     file = "derived_data.csv"  # Replace with your file name
 

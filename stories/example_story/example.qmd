@@ -1,0 +1,32 @@
+---
+title: "Example QMD File"
+output: html_document
+---
+
+# Introduction
+
+This is an example of a Quarto Markdown (QMD) file that uses a Python script to wrangle data.
+
+# Python Code Chunk
+
+Here's an example of a Python code chunk that uses the `wrangle_data` function from the `wrangle.py` script:
+
+```{python}
+from wrangle_data import wrangling_data
+import pandas as pd
+
+# Load the data into a DataFrame
+df = pd.read_csv('derived_data.csv')
+
+# Use the wrangle_data function to wrangle the data
+df = wrangle_data(df)
+
+print(df)
+```
+
+# Conclusion
+This is just a simple example, but QMD files can include much more complex code and analysis.
+
+This `.qmd` file includes a Python code chunk that imports the `wrangle_data` function from the `wrangle.py` script, loads the data into a DataFrame, uses the `wrangle_data` function to wrangle the data, and then prints the DataFrame.
+
+Note that this script assumes that the `wrangle.py` script and the `derived_data.csv` file are located in the same directory as the `.qmd` file. If they are located in a different directory, you'll need to adjust the import statement and the file path accordingly.

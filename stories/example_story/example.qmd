@@ -12,11 +12,11 @@ This is an example of a Quarto Markdown (QMD) file that uses a Python script to 
 Here's an example of a Python code chunk that uses the `wrangle_data` function from the `wrangle.py` script:
 
 ```{python}
-from wrangle_data import wrangling_data
-import pandas as pd
+from wrangle_data import read_data_from_url, wrangle_data
 
 # Load the data into a DataFrame
-df = pd.read_csv('derived_data.csv')
+url = "https://raw.githubusercontent.com/wilfordwoodruff/Main-Data/main/data/derived/derived_data.csv"
+df = read_data_from_url(url)
 
 # Use the wrangle_data function to wrangle the data
 df = wrangle_data(df)

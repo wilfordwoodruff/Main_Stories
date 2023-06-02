@@ -22,7 +22,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Load and wrangle data
-      run: python Main_Stories/stories/example_story/wrangle_data.py
+      run: python stories/example_story/wrangle_data.py
     - name: Set up R
       uses: r-lib/actions/setup-r@v1
     - name: Install Quarto
@@ -31,7 +31,7 @@ jobs:
         remotes::install_github('quarto-dev/quarto-cli')
     - name: Render QMD files
       run: |
-        find Main_Stories/stories_name -name "*.qmd" -exec Rscript -e "quarto::render('{}')" \;
+        find stories_name -name "*.qmd" -exec Rscript -e "quarto::render('{}')" \;
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:

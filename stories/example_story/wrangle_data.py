@@ -1,7 +1,10 @@
 import pandas as pd
-from read_data import load_data_into_dataframe  # Assuming the previous script is named download_data.py
 
-def wrangling_data(df):
+def read_data_from_url(url):
+    df = pd.read_csv(url)
+    return df
+
+def wrangle_data(df):
     # Perform data wrangling operations here
     # For example, let's drop any rows with missing values and rename a column
     df = df.dropna()
@@ -9,7 +12,8 @@ def wrangling_data(df):
     return df
 
 if __name__ == "__main__":
-    file = "derived_data.csv"  # Replace with your file name
-    df = load_data_into_dataframe(file)
+    url = "https://raw.githubusercontent.com/wilfordwoodruff/Main-Data/main/data/derived/derived_data.csv"
+    df = read_data_from_url(url)
     df = wrangle_data(df)
     print(df)
+

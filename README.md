@@ -14,9 +14,7 @@ Here are a few enhancements that could be made to further improve Public Stories
 
 4. **Automated Testing:** Introducing automated tests can ensure the reliability of our code. This could include unit tests, integration tests, and the use of continuous integration systems to automatically run tests upon code changes.
 
-5. **Version Control:** Implementing a more robust version control system, including detailed changelogs and rollback features, could enhance our project management.
-
-6. **Accessibility Improvements:** Incorporating features that make the project more accessible to all users, including those with visual impairments or other disabilities, can greatly improve the overall user experience.
+5. **Accessibility Improvements:** Incorporating features that make the project more accessible to all users, including those with visual impairments or other disabilities, can greatly improve the overall user experience.
 
 Please note that these features are potential improvements and are subject to change based on the needs of the project and user feedback.
 

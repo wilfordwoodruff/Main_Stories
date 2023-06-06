@@ -2,11 +2,24 @@
 
 Welcome to the Public Stories repository! This repository allows you to dive deeper into the exploration of Wilford Woodruff's life, providing you the freedom to manipulate, add or modify data according to your coding experience.
 
-## Features
+## Potential Features
 
-1. **Flexible Data Manipulation:** Modify and add data to enhance your personal exploration journey.
-2. **Advanced Search Options:** Utilize features like scripture matching and location mapping for specific and detailed searches.
-3. **Integration with Main Website:** This repository is connected to our main website through a central data repository, allowing for seamless interaction and data exchange.
+Here are a few enhancements that could be made to further improve Public Stories:
+
+1. **Data Visualization:** Interactive graphs, charts, or maps could be introduced to help users visualize and engage with the stories.
+
+2. **User Contributions:** A submission portal could be added to allow users to contribute their own stories or interpretations, further enriching the repository's content.
+
+3. **Advanced Search Functionality:** Improving the search feature with advanced filters such as date ranges, locations, or key figures could enable users to find specific stories more easily.
+
+4. **Automated Testing:** Introducing automated tests can ensure the reliability of our code. This could include unit tests, integration tests, and the use of continuous integration systems to automatically run tests upon code changes.
+
+5. **Version Control:** Implementing a more robust version control system, including detailed changelogs and rollback features, could enhance our project management.
+
+6. **Accessibility Improvements:** Incorporating features that make the project more accessible to all users, including those with visual impairments or other disabilities, can greatly improve the overall user experience.
+
+Please note that these features are potential improvements and are subject to change based on the needs of the project and user feedback.
+
 
 ## How to Use
 

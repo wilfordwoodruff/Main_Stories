@@ -31,6 +31,6 @@ If you encounter a bug or have a suggestion for improvement, please submit it as
 
 ## Questions or Concerns
 
-If you have any questions or concerns about contributing, please submit them as issues on GitHub. We value your feedback and will do our best to assist you.
+If you have any questions or concerns about contributing, please submit them here [Issue Tracker](https://github.com/wilfordwoodruff/Main_Stories//issues). We value your feedback and will do our best to assist you.
 
 Thank you for your interest in our project. We appreciate your contributions and look forward to collaborating with you!

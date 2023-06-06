@@ -29,6 +29,6 @@ We welcome contributions from our user community. Please read the [Contributing 
 
 ## Feedback
 
-We'd love to hear your thoughts, suggestions, and any issues you might come across! Please open an issue in the [Issue Tracker](https://github.com/wilfordwoodruff/Main_Stories//issues) to report them.
+We'd love to hear your thoughts, suggestions, and any issues you might come across! Please open an issue in the [Issue Tracker](https://github.com/wilfordwoodruff/Public_Stories//issues) to report them.
 
 

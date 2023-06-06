@@ -20,6 +20,4 @@ We welcome contributions from our user community. Please read the [Contributing 
 
 We'd love to hear your thoughts, suggestions, and any issues you might come across! Please open an issue in the [Issue Tracker](https://github.com/wilfordwoodruff/Main_Stories//issues) to report them.
 
-## License
 
-This project is licensed under the terms of the XYZ license. See [LICENSE](LICENSE.md) for more details.

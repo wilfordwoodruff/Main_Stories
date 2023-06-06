@@ -29,6 +29,8 @@ Please follow the coding standards below to ensure consistency throughout the pr
 
 If you encounter a bug or have a suggestion for improvement, please submit it as an issue on GitHub. Check to see if your issue or suggestion has already been submitted by another user to avoid duplicates.
 
+[Issue Tracker](https://github.com/wilfordwoodruff/Public_Stories//issues)
+
 ## Questions or Concerns
 
 If you have any questions or concerns about contributing, please submit them here [Issue Tracker](https://github.com/wilfordwoodruff/Public_Stories//issues). We value your feedback and will do our best to assist you.

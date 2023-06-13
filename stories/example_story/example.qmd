@@ -5,11 +5,38 @@ output: html_document
 
 # Introduction
 
-This is an example of a Quarto Markdown (QMD) file that uses a Python script to wrangle data.
+This documentation provides a step-by-step guide on how to use a Quarto Markdown (QMD) file to wrangle data using a Python script. QMD allows you to seamlessly integrate code, visualizations, and explanatory text in a single document.
+
+# Prerequisites
+Before getting started, make sure you have the following prerequisites: 
+
+- Python installed on your machine. 
+- An Integrated Development Environment (IDE) of your choice for Python programming.
+- Basic knowledge of Python programming. 
+- Familiarity with the Quarto Markdown format. 
+
+# Getting Started 
+To begin, follow these steps: 
+
+1. Create a new QMD file with a `.qmd` extension, such as `example.qmd`. 
+2. Set the necessary metadata and output format in the YAML front matter of your QMD file. For this example, we'll use HTML output:
+
+<!-- ```{python}
+```
+title: "Example QMD File"
+output: html_document
+```
+``` -->
+
 
 # Python Code Chunk
 
-Here's an example of a Python code chunk that uses the `wrangle_data` function from the `wrangle.py` script:
+Now let's add a Python code chunk to your QMD file that performs data wrangling tasks. Follow these steps:
+
+1. Identify the Python script containing the wrangling functions. For this example, assume the script is named `wrangle.py`.
+2. Create a new code chunk in your QMD file and specify the language as python.
+3. Within the code chunk, import the necessary functions from the `wrangle.py` script and perform data wrangling operations: 
+
 
 ```{python}
 from wrangle_data import read_data_from_url, wrangle_data
@@ -21,12 +48,40 @@ df = read_data_from_url(url)
 # Use the wrangle_data function to wrangle the data
 df = wrangle_data(df)
 
+# Perform additional data manipulations or analyses as needed
+
+# Print the resulting DataFrame
 print(df)
+
 ```
 
+4. Make sure to replace the URL "https://raw.githubusercontent.com/wilfordwoodruff/Main-Data/main/data/derived/derived_data.csv" with the appropriate URL pointing to your data source.
+
+# Running the Code
+To run the Python code within your QMD file and observe the data wrangling results, follow these steps:
+
+1. Open your preferred IDE for Python programming.
+2. Create a new Python file (if necessary) and implement the wrangle_data and related functions within the wrangle.py script.
+3. Switch back to your QMD file (example.qmd) in your chosen IDE.
+
+Next, we'll run the Python code:
+
+1. Save all changes to your wrangle.py and example.qmd files.
+2. Run the Python code by executing the QMD file using your IDE's respective method. Refer to the documentation or guidelines of your IDE for specific instructions on running Quarto Markdown files.
+
 # Conclusion
-This is just a simple example, but QMD files can include much more complex code and analysis.
 
-This `.qmd` file includes a Python code chunk that imports the `wrangle_data` function from the `wrangle.py` script, loads the data into a DataFrame, uses the `wrangle_data` function to wrangle the data, and then prints the DataFrame.
+Congratulations! You have successfully created a QMD file that utilizes a Python script to wrangle data.
 
-Note that this script assumes that the `wrangle.py` script and the `derived_data.csv` file are located in the same directory as the `.qmd` file. If they are located in a different directory, you'll need to adjust the import statement and the file path accordingly.
+This example showcases the capabilities of QMD files by incorporating a Python code chunk. The code imports the `wrangle_data` function from the `wrangle.py` script, loads data into a DataFrame, performs wrangling operations using the function, and prints the resulting DataFrame.
+
+Note that the `wrangle.py` script and `derived_data.csv` file are assumed to be in the same directory as the `.qmd` file. Adjust the import statement and file path if they are in a different directory.
+
+By using your preferred IDE, you can execute the Python code within the QMD file and observe the data wrangling results in the desired environment.
+
+Feel free to explore and expand upon this example to incorporate more complex code and analysis into your QMD files.
+
+# Further Resources
+For more information on Quarto Markdown and its capabilities, refer to the [official Quarto documentation and guides](https://quarto.org/docs/guide/).
+
+This documentation provides a high-level overview of how to use a Quarto Markdown (QMD) file to wrangle data using a Python script. The code chunk provided demonstrates the steps involved in importing functions from a separate script, loading data from the specified URL into a DataFrame, applying wrangling operations, and printing the resulting DataFrame.

@@ -27,30 +27,52 @@ df_places['Locations'] = df_places['Places'].str.split('|')
 We create a new DataFrame, df_places, which includes only the rows where 'Places' is not null. We then split the 'Places' column on the '|' character and store the result in a new column, 'Locations'.
 
 ```{python, echo=FALSE}
+# define a list of prepositions that might be used to denote a current location
 current_prepositions = ['in', 'at', 'on']
+
+# define a list of verbs and prepositions that might be used to denote a mentioning location
 mentioning_words = ['from', 'about', 'via', 'send', 'talk']
 
 for index, row in df_places.iterrows():
+    # tokenize the transcript into sentences
     sentences = nltk.tokenize.sent_tokenize(row['Text Only Transcript'])
+
+    current_locations = []
+    mentioning_locations = []
+
+    # check each sentence
     for sentence in sentences:
         words = nltk.tokenize.word_tokenize(sentence)
         tagged_words = nltk.pos_tag(words)
+
+        # Create a dictionary to store word-position pairs
         word_pos_dict = {word.lower(): pos for word, pos in tagged_words}
-        for location in row['Locations']:
+
+        # check each location
+        for location in row['Locations']:  # now 'Locations' exists in df_places
+            # if location is mentioned in the sentence
             if location in sentence:
+                # check if it's a current location
                 for word in current_prepositions:
                     if word in word_pos_dict and word_pos_dict[word] == 'IN':
-                        df_places.at[index, 'Current Location'] = location
+                        current_locations.append(location)
+                # check if it's a mentioning location
                 for word in mentioning_words:
                     if word in word_pos_dict and (word_pos_dict[word] == 'IN' or word_pos_dict[word] == 'VB'):
-                        df_places.at[index, 'Mentioning Location'] = location
+                        mentioning_locations.append(location)
+
+    # Now, store the lists of locations in the dataframe, using '|' as a separator
+    if current_locations:
+        df_places.at[index, 'Current Location'] = '|'.join(current_locations)
+    if mentioning_locations:
+        df_places.at[index, 'Mentioning Location'] = '|'.join(mentioning_locations)
 
 ```
 
 Here, we iterate through each sentence in each transcript. For each sentence, we check if any of our locations are mentioned. If they are, we check whether the location is a current location (based on the use of prepositions) or a mentioned location (based on the use of specific verbs or prepositions). If it's a current location, we add it to the 'Current Location' column, and if it's a mentioned location, we add it to the 'Mentioning Location' column.
 
 ```{python, echo=FALSE}
-df_places['Current Locations']
+df_places['Current Location']
 ```
 
 ```{python, echo=FALSE}

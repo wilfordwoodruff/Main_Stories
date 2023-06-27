@@ -31,7 +31,7 @@ jobs:
         remotes::install_github('quarto-dev/quarto-cli')
     - name: Render QMD files
       run: |
-        find stories_name -name "*.qmd" -exec Rscript -e "quarto::render('{}')" \;
+        find stories_name -name "docs/*.qmd" -exec Rscript -e "quarto::render('{}')" \;
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:

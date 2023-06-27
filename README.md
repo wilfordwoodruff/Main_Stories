@@ -28,7 +28,7 @@ We'd love to hear your thoughts, suggestions, and any issues you might come acro
 
 ## Forking an Existing Repository
 
-1. **Navigate to the Repo**: Go to the [Wilford Woodruff organization page](https://github.com/wilfordwoodruff) and find the repository you wish to fork.
+1. **Navigate to the Repo**: Go to the [Wilford Woodruff organization page](https://github.com/wilfordwoodruff) and find the repository you wish to fork. Start with this *Public Stories* repository, or you can pick another if someone else's project is similar to your own and you want to borrow code.
 
 2. **Fork the Repo**: In the top-right corner of the page, click the **Fork** button.
 

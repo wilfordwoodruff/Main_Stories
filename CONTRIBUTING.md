@@ -4,6 +4,13 @@ Thank you for your interest in contributing to Public Stories! Your contribution
 
 Before you contribute, please read through this guide to understand the process and guidelines.
 
+## Reading Data
+[Main Data Repo](https://github.com/wilfordwoodruff/Main-Data)
+```{python}
+src_data = pd.read_csv('https://raw.githubusercontent.com/wilfordwoodruff/Main-Data/main/data/derived/derived_data.csv')
+```
+- Look through the data files one example data/raw/*pages-export.csv
+
 ## Getting Started
 
 - Make sure you have a [GitHub](https://github.com) account.

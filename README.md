@@ -1,28 +1,16 @@
 # Public Stories
 
-Welcome to the Public Stories repository! This repository allows you to dive deeper into the exploration of Wilford Woodruff's life, providing you the freedom to manipulate, add or modify data according to your coding experience.
+Welcome to the Public Stories repository! This is where we store most of the pages and documents that other people have made, so everyone can explore Pres. Woodruff's work in new ways. It's also where *your* work can end up! You can copy this repository to build from if you want to see what others do, or feel free to use our [Template Repository](https://github.com/wilfordwoodruff/TEMPLATE), which has example web pages, apps, and tutorials for you.
 
 ## Potential Features
 
-Here are a few enhancements that could be made to further improve Public Stories:
+Here are a few things you can build to further improve Public Stories:
 
 1. **Data Visualization:** Interactive graphs, charts, or maps could be introduced to help users visualize and engage with the stories.
 
 2. **User Contributions:** A submission portal could be added to allow users to contribute their own stories or interpretations, further enriching the repository's content.
 
 Please note that these features are potential improvements and are subject to change based on the needs of the project and user feedback.
-
-## How to Use
-
-Detailed instructions on how to use this repository, modify data, and contribute will be provided. If you're new to GitHub, consider checking out [GitHub's documentation](https://docs.github.com/en/github) for help getting started.
-
-## Contributing
-
-We welcome contributions from our user community. Please read the [Contributing Guide](https://github.com/wilfordwoodruff/Public_Stories/blob/main/docs/main_page.html) before making a contribution.
-
-## Feedback
-
-We'd love to hear your thoughts, suggestions, and any issues you might come across! Please open an issue in the [Issue Tracker](https://github.com/wilfordwoodruff/Public_Stories//issues) to report them.
 
 # How to Fork a Repo for a Git Organization
 
@@ -64,3 +52,17 @@ Remember to always push your changes to the GitHub repository to keep it up-to-d
 3. **Push Changes**: Push your changes to the GitHub repository with the `git push origin main` command.
 
 That's it! You've now created or forked a repository, made changes, and pushed those changes to GitHub.
+
+
+## How to Use
+
+Detailed instructions on how to use this repository, modify data, and contribute will be provided. If you're new to GitHub, consider checking out [GitHub's documentation](https://docs.github.com/en/github) for help getting started.
+
+## Contributing
+
+We welcome contributions from our user community. Please read the [Contributing Guide](https://github.com/wilfordwoodruff/Public_Stories/blob/main/docs/main_page.html) before making a contribution.
+
+## Feedback
+
+We'd love to hear your thoughts, suggestions, and any issues you might come across! Please open an issue in the [Issue Tracker](https://github.com/wilfordwoodruff/Public_Stories//issues) to report them.
+

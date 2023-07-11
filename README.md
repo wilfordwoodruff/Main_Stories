@@ -60,7 +60,7 @@ Detailed instructions on how to use this repository, modify data, and contribute
 
 ## Contributing
 
-We welcome contributions from our user community. Please read the [Contributing Guide](https://github.com/wilfordwoodruff/Public_Stories/blob/main/CONTRIBUTING.md) before making a contribution.
+We welcome contributions from our user community. Please read the [Contribution](https://github.com/wilfordwoodruff/Public_Stories/blob/main/CONTRIBUTING.md) before making a contribution.
 
 ## Feedback
 

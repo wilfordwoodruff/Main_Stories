@@ -6,6 +6,14 @@ Before you contribute, please read through this guide to understand the process 
 
 ## Reading Data
 [Main Data Repo](https://github.com/wilfordwoodruff/Main-Data)
+- how to read derived data
+```{python}
+import pandas as pd
+
+URL 
+```
+
+- How to read raw data
 ```{python}
 import requests
 import json

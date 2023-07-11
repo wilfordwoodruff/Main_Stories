@@ -4,7 +4,7 @@ Welcome to the Public Stories repository! This is where we store most of the pag
 
 ## Potential Features
 
-Here are a few things you can build to further improve Public Stories:
+The repository is constantly working to grow and provide additional options for users to interact with and explore the data we have available. Here are a few potential enhancements we have considered building into the current system.
 
 1. **Data Visualization:** Interactive graphs, charts, or maps could be introduced to help users visualize and engage with the stories.
 

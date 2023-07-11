@@ -1,5 +1,7 @@
 ## You're starting your own project!
 
+First, **COPY** the pieces you want into a new folder. It'll be easier to get your work published if this `Template` folder has no changes.
+
 You'll want to use **either** the `app_template.R` or the `example.qmd` to build your story.
 + If you want something interactive that people can explore: `app_template.R`
 + If you want to tell a specific story and combine visuals with text: `example.qmd`

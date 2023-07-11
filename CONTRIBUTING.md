@@ -52,7 +52,6 @@ df = pd.read_csv(raw_url)
 # Now df holds the content of the latest CSV file
 print(df.head())
 ```
-- How to grab data
 
 ## Getting Started
 

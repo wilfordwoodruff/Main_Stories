@@ -6,11 +6,12 @@ Before you contribute, please read through this guide to understand the process 
 
 ## Reading Data
 [Main Data Repo](https://github.com/wilfordwoodruff/Main-Data)
+
 - how to read derived data
 ```{python}
 import pandas as pd
-
-URL 
+url = "https://raw.githubusercontent.com/wilfordwoodruff/Main-Data/main/data/derived/derived_data.csv.csv"
+df = pd.read_csv(url)
 ```
 
 - How to read raw data

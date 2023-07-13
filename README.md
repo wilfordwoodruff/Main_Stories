@@ -1,6 +1,6 @@
 # Public Stories
 
-Welcome to the Public Stories repository! This is where we store most of the pages and documents that other people have made, so everyone can explore Pres. Woodruff's work in new ways. It's also where *your* work can end up! You can copy this repository to build from if you want to see what others do, or feel free to use our [Template Repository](https://github.com/wilfordwoodruff/TEMPLATE), which has example web pages, apps, and tutorials for you.
+Welcome to the Public Stories repository! This is where we store most of the pages and documents that other people have made, so everyone can explore Pres. Woodruff's work in new ways. It's also where *your* work can end up! You can copy this repository to build from if you want to see what others do, or feel free to use our [TEMPLATE Folder](https://github.com/wilfordwoodruff/Public_Stories/tree/main/TEMPLATE), which has example web pages, apps, and tutorials for you.
 
 ## Potential Features
 
